@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color:  #0f5da1;
+    padding: 16px 0;
+}
+
+.logo{
+    height: 40px ;
+}
+
+header nav ul {
+    display: inline;
+    margin-left: 16px;
+   
+}
+
+header nav ul li {
+    display: inline;
+}
+
+
+
+header nav ul a {
+    color:#8ca5be;
+    text-decoration: none;
+    font-size: 20px;
+ 
+}
+
+header nav ul  :hover{
+    color: #d7e9f3;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1366px;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.facha-bunge{
+    padding: 16px 0;
+    height: 620px;
+    margin-right: 16px;
+    
+    
+}
+
+.conteudo{
+    justify-content: flex-start;
+  
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section .container p{
+    font-size: 18px;
+    color: #0f5da1;
+    padding: px 0;
+    
+}
+section .container h2{
+    font-size: 34px;
+    color: #242424;
+    padding: 8px;
+}
+
+
+/*Section Produtos*/
+
+section .produtos img{
+ height: 280px;
+ 
+}
+
+section .produtos ul{
+display: flex;
+width: 25%;  
+
+   }
+
+   .produtos ul li{
+    margin-right: 140px;
+    padding: 26px 0;
+  }
+  .produtos ul li {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .produtos h2{
+    text-align: center;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .produtos ul p{
+    color: #0f5da1 ;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /*Section Maquinas*/
+ 
+  .maquinas h2{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .img-maquinas img{
+    height: 380px;
+  }
+
+  .img-maquinas  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .img-maquinas li {
+    width: 40%;
+    flex-wrap: wrap;
+    margin-right: 5px;
+    list-style-type: none;
+    font-size: 18px;
+  }
+  .img-maquinas h3 {
+  padding: 8px 0;
+  }
+
+
+  .opcoes{
+  display: flex;
+
+  }
+
+  .opcoes li{
+   
+    text-align: center;
+    color: white ;
+    border-radius: 10px;
+    background-color:#0f5da1 ;
+    align-items: center;
+  }
+  .opcoes li:hover{
+    
+    color:  #0f5da1 ;
+    background-color:white ;
+  }
+
+   /*footer*/
+ 
+   footer{
+    margin-top: 20px;
+    padding: 16px 0;
+    background-color:#0f5da1 ;
+    border-radius: 55px 55px 0 0 ;text-align: center;
+   }
+
+   .conteudo-rodape{
+    display: flex;
+    justify-content: space-around;
+   }
+
+   .conteudo-rodape li{
+    color: aliceblue;
+       width: 20%;  
+         list-style-type: none;
+      
+   }
+
+   .conteudo-rodape  p{
+    font-size: 18px;
+   }
+
+   .conteudo-rodape ul a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+   
+   }
+
+   .conteudo-rodape ul li{
+    padding: 8px 0;
+   }
+
+   .conteudo-rodape  h2{
+    padding: 16px 0;
+    color: white;
+   
+   }
+
+   
+.contatos ul li {
+   
+  margin: 0 auto;
+}

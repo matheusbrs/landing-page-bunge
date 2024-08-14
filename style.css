@@ -118,6 +118,8 @@ width: 25%;
     margin-bottom: 50px;
   }
 
+  
+
   .img-maquinas img{
     height: 380px;
   }
@@ -125,7 +127,8 @@ width: 25%;
   .img-maquinas  {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    
   }
 
   .img-maquinas li {
@@ -134,6 +137,7 @@ width: 25%;
     margin-right: 5px;
     list-style-type: none;
     font-size: 18px;
+   
   }
   .img-maquinas h3 {
   padding: 8px 0;
@@ -142,11 +146,12 @@ width: 25%;
 
   .opcoes{
   display: flex;
+ 
 
   }
 
   .opcoes li{
-   
+  
     text-align: center;
     color: white ;
     border-radius: 10px;
@@ -156,8 +161,23 @@ width: 25%;
   .opcoes li:hover{
     
     color:  #0f5da1 ;
-    background-color:white ;
+    background-color:#1780db ;
   }
+
+  .opcoes li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    display: grid;
+    
+ 
+    
+  }
+
+  .opcoes li a :hover{
+    color: #0f5da1;
+}
+  
 
    /*footer*/
  
@@ -171,6 +191,7 @@ width: 25%;
    .conteudo-rodape{
     display: flex;
     justify-content: space-around;
+    align-items: center;
    }
 
    .conteudo-rodape li{
@@ -208,13 +229,33 @@ width: 25%;
 }
 
 
+.formulario form{
+  display: grid;
+  width: 50%;
+  margin: 0 auto;
+  
+}
 
+.formulario  input{
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+ .formulario button{
+  margin-top: 10px;
+ border-radius: 10px;
+}
 
 /*Italpack*/
-
+.italpack{
+  margin-top:10% ;
+}
 
 .italpack p {
-width: 50%;
+width: 60%;
+font-size: 124px;
+
 }
 .italpack h1{
   width: 100%;
@@ -236,13 +277,16 @@ display: flex;
   padding: 16px 0;
 }
 
-.test p{
-  
-}
+
 
 .hdr{
   position: fixed;
   width: 100%;
+  align-items: center;
+}
+
+.italpack li {
+  list-style: none;
 }
 
 

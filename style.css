@@ -206,3 +206,43 @@ width: 25%;
    
   margin: 0 auto;
 }
+
+
+
+
+/*Italpack*/
+
+
+.italpack p {
+width: 50%;
+}
+.italpack h1{
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+}
+
+.italpack img{
+  padding: 16px 0;
+  height: 500px;
+  margin-right: 10px;
+}
+
+ .conteudo-italpack {
+display: flex;
+}
+.test{
+  display: block;
+  padding: 16px 0;
+}
+
+.test p{
+  
+}
+
+.hdr{
+  position: fixed;
+  width: 100%;
+}
+
+

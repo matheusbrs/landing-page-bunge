@@ -26,6 +26,12 @@
                         <a href="#maquinas">Maquinário</a>
                     </li>
                 </ul>
+                <ul>
+                    <svg class="add-bnt" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3z"/>
+                      </svg>
+                </ul>
+                
                 
             </nav>
         </div>
@@ -60,28 +66,55 @@
 
         </div>
         <section id="produtos">
-            <div class="container">
-                <div class="produtos">
-                    <h2>Alguns de nossos produtos</h2>
-                    <ul>
-                        <li><img src="img/mockup_papel_farina_1kg_frente_500px.png" alt="">
+            <h1>Alguns de nossos produtos</h1>
+            <div class="container" id="">
+                <div class="slider">
+                     <div class="slides">
+                         <!--Radio buttons-->
+                         <input type="radio" name="radio-btn" id="radio1">
+                         <input type="radio" name="radio-btn" id="radio2">
+                         <input type="radio" name="radio-btn" id="radio3">
+                         <input type="radio" name="radio-btn" id="radio4">
+                         <input type="radio" name="radio-btn" id="radio5">
+                         <input type="radio" name="radio-btn" id="radio6">
+                          <!--Fim radio buttons-->
 
-                            <p>FARINHA DE TRIGO FARINA TIPO 1 - 10X1KG
-                            </p>
-                        </li>
-                        <li><img src="img/predileta-farinha-baixa.png" alt="">
-                            <p>Farinha de Trigo Predileta 25kg</p>
-                        </li>
-                        <li><img src="img/ft-suprema-extra-clara-rafia-qr-code-selo-suprema.png" alt="">
-                            <p>Farinha de Trigo Suprema Extra Clara Ráfia - 25kg</p>
-                        </li>
-                        <li><img src="img/pastel.jfif" alt="">
-                            <p>Farinha de Trigo Suprema para Pastel e Massas Frescas - 5kg - Plástico </p>
-                        </li>
+                           <!--slides imgs-->
+                           <div class="slide first">
+                             <img src="img/mockup_papel_farina_1kg_frente_500px.png" alt="">
+                           </div>
+                           <div class="slide ">
+                             <img src="img/pastel.jfif" alt="">
+                           </div>
+                           <div class="slide ">
+                             <img src="img/predileta-farinha-baixa.png" alt="">
+                           </div>
+                           <div class="slide ">
+                             <img src="img/ft-suprema-extra-clara-rafia-qr-code-selo-suprema.png" alt="">
+                           </div>
+                          
+                           <!--Fim slides imgs-->
 
-                    </ul>
+                           <!-- navigation auto-->
+                            <div class="navigation-auto">
+                                 <div class="auto-bnt1"></div>
+                                 <div class="auto-bnt2"></div>
+                                 <div class="auto-bnt3"></div>
+                                 <div class="auto-bnt4"></div>
+                                 <div class="auto-bnt5"></div>
+                                 <div class="auto-bnt6"></div>
+                            </div>
+                     </div>
+                     <div class="manual-navigation">
+                         <label for="radio1" class="manual-btn"></label>
+                         <label for="radio2" class="manual-btn"></label>
+                         <label for="radio3" class="manual-btn"></label>
+                         <label for="radio4" class="manual-btn"></label>
+                         <label for="radio5" class="manual-btn"></label>
+                         <label for="radio6" class="manual-btn"></label>
+                     </div>
                 </div>
-            </div>
+             </div>
         </section>
         <section>
             <div class="container">
@@ -129,11 +162,10 @@
                         </li>
                     </ul>
 
-
-                    </ul>
                 </div>
             </div>
         </section>
+
     </section>
     <footer>
         <div class="rodape">
@@ -195,7 +227,7 @@
             </ul>
         </div>
     </footer>
-
+<script src="script.js"></script>
 </body>
 
 </html>

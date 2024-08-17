@@ -161,6 +161,7 @@ width: 25%;
     border-radius: 10px;
     background-color:#0f5da1 ;
     align-items: center;
+     
   }
   .opcoes li:hover{
     
@@ -173,7 +174,7 @@ width: 25%;
     color: white;
     padding: 5px;
     display: grid;
-    
+   
  
     
   }
